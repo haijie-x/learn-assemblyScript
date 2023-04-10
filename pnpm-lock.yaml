@@ -1,0 +1,33 @@
+lockfileVersion: 5.3
+
+specifiers:
+  assemblyscript: ^0.27.1
+
+devDependencies:
+  assemblyscript: registry.npmmirror.com/assemblyscript/0.27.1
+
+packages:
+
+  registry.npmmirror.com/assemblyscript/0.27.1:
+    resolution: {integrity: sha512-0ZS9ujdoSAjuwc+qdZ4PeZy32wFh3U2GVy7/G2dfDr/5i0jOmWY29AaFsiNxDQ7z6MOeTo9YpNLfIqZ1WWzh8A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/assemblyscript/-/assemblyscript-0.27.1.tgz}
+    name: assemblyscript
+    version: 0.27.1
+    engines: {node: '>=16', npm: '>=7'}
+    hasBin: true
+    dependencies:
+      binaryen: registry.npmmirror.com/binaryen/111.0.0-nightly.20230202
+      long: registry.npmmirror.com/long/5.2.1
+    dev: true
+
+  registry.npmmirror.com/binaryen/111.0.0-nightly.20230202:
+    resolution: {integrity: sha512-aGMDtxmc8zQHzAamyOBvO38n2e/GuXM0dZCJg+IuG2YUQODTqI37XSkAixS8c0wXn2dgLntDMk1VDblKCsy0GA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/binaryen/-/binaryen-111.0.0-nightly.20230202.tgz}
+    name: binaryen
+    version: 111.0.0-nightly.20230202
+    hasBin: true
+    dev: true
+
+  registry.npmmirror.com/long/5.2.1:
+    resolution: {integrity: sha512-GKSNGeNAtw8IryjjkhZxuKB3JzlcLTwjtiQCHKvqQet81I93kXslhDQruGI/QsddO83mcDToBVy7GqGS/zYf/A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/long/-/long-5.2.1.tgz}
+    name: long
+    version: 5.2.1
+    dev: true
