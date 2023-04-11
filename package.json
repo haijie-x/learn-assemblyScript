@@ -29,5 +29,9 @@
       "import": "./build/release.js",
       "types": "./build/release.d.ts"
     }
+  },
+  "dependencies": {
+    "@assemblyscript/loader": "^0.27.1",
+    "asdom": "^0.2.2"
   }
 }

@@ -1,12 +1,38 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@assemblyscript/loader': ^0.27.1
+  asdom: ^0.2.2
   assemblyscript: ^0.27.1
+
+dependencies:
+  '@assemblyscript/loader': registry.npmmirror.com/@assemblyscript/loader/0.27.1
+  asdom: registry.npmmirror.com/asdom/0.2.2
 
 devDependencies:
   assemblyscript: registry.npmmirror.com/assemblyscript/0.27.1
 
 packages:
+
+  registry.npmmirror.com/@assemblyscript/loader/0.18.32:
+    resolution: {integrity: sha512-fq+nWvQuwASkTgchjMsnLyharobzPJIKx4KGoSlkS1ffrsnjabok2oOH7jAIFW4RMz3JXjHxMONbAmcxzyrcUw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@assemblyscript/loader/-/loader-0.18.32.tgz}
+    name: '@assemblyscript/loader'
+    version: 0.18.32
+    dev: false
+
+  registry.npmmirror.com/@assemblyscript/loader/0.27.1:
+    resolution: {integrity: sha512-Ewpv9rZedCRh1skWtCSzWVaHFwbhksO5jzcAnylE/KZTDWk5VsO7yCpy1gLHTZMChC9QLU3VFP2kzl+tBbCwtA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@assemblyscript/loader/-/loader-0.27.1.tgz}
+    name: '@assemblyscript/loader'
+    version: 0.27.1
+    dev: false
+
+  registry.npmmirror.com/asdom/0.2.2:
+    resolution: {integrity: sha512-whrvHQx+igxeRwo+uRJ0M8T38CXuGLJEmzC04AeR63pjZt8ieBY+2OVinM/zr2jEge+czKWzJFHQWUP9jMrqkQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/asdom/-/asdom-0.2.2.tgz}
+    name: asdom
+    version: 0.2.2
+    dependencies:
+      '@assemblyscript/loader': registry.npmmirror.com/@assemblyscript/loader/0.18.32
+    dev: false
 
   registry.npmmirror.com/assemblyscript/0.27.1:
     resolution: {integrity: sha512-0ZS9ujdoSAjuwc+qdZ4PeZy32wFh3U2GVy7/G2dfDr/5i0jOmWY29AaFsiNxDQ7z6MOeTo9YpNLfIqZ1WWzh8A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/assemblyscript/-/assemblyscript-0.27.1.tgz}
